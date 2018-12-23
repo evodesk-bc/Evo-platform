@@ -1,0 +1,5 @@
+.transactions{
+    border-bottom: 1px solid grey;
+    margin: 0 5vw 0 5vw;  
+    overflow: hidden;
+}

@@ -1,0 +1,21 @@
+.transaction_info{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.transaction_info__item{
+    margin: 0 5vw 0 5vw; 
+}
+.transaction_info__item__label{
+    font-size: 18px;
+    color: grey;
+}
+.transaction_info__item__info{
+    word-break: break-all;
+}
+
+.transaction_info__txs{
+    padding: 0 5vw 0 5vw;
+    overflow: hidden;
+    border-left: 1px solid grey;
+}

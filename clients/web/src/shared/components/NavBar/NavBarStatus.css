@@ -1,0 +1,10 @@
+.navbar__status {
+    display: flex;
+    flex: 0.5;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar__status__peers {
+    color: white;
+}

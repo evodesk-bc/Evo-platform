@@ -1,0 +1,21 @@
+.block_info{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.block_info__item{
+    margin: 0 5vw 0 5vw; 
+}
+.block_info__item__label{
+    font-size: 18px;
+    color: grey;
+}
+.block_info__item__info{
+    word-break: break-all;
+}
+
+.block_info__txs{
+    padding: 0 5vw 0 5vw;
+    overflow: hidden;
+    border-left: 1px solid grey;
+}

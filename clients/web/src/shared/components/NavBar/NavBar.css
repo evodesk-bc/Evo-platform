@@ -1,0 +1,59 @@
+/* Responsive Layout */
+@media screen and (max-width: 700px) {
+    .navbar {
+        flex-direction: column-reverse;
+    }
+
+    .navbar__nav {
+        flex-direction: column;
+    }
+}
+
+/* Navigation Bar */
+
+.navbar {
+    display: flex;
+    background-color: #252525;
+    justify-content: space-between;
+}
+.navbar__nav {
+    display: flex;
+}
+
+.navbar__nav__item {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+    .navbar__nav__item:hover {
+        background-color: rgb(58, 58, 58);
+    }
+
+    .navbar__nav__item:active {
+        background-color: rgb(58, 58, 58);
+        color: rgb(0,0,0);
+    }
+
+.navbar__nav__item_current {
+    background-color: rgb(80, 80, 80);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+    .navbar__nav__item_current:hover {
+        background-color: rgb(58, 58, 58);
+    }
+
+    .navbar__nav__item_current:active {
+        background-color: rgb(58, 58, 58);
+        color: rgb(0,0,0);
+    }
+
